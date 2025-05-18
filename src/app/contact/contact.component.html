@@ -112,7 +112,7 @@
         <div class="card h-fit max-w-6xl p-5 md:py-0 md:px-12" id="form">
           <h2 class="mb-4 text-2xl font-bold text-center">Entre em Contato</h2>
           <form id="contactForm">
-            <div class="mb-6" style="width: 550px;">
+            <div class="mb-6">
               <div class="mx-0 mb-1 sm:mb-4">
                 <div class="mx-0 mb-1 sm:mb-4">
                   <label
@@ -160,15 +160,15 @@
                 ></textarea>
               </div>
             </div>
-            <div class="text-center" style="display: flex; flex-direction: row; gap: 20px;">
-              <a [href]="finalEmail()" target="_blank">
-                <button type="button" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0" style="width: 265px;">
-                  Enviar Email
+            <div class="text-center" style="display: flex; flex-direction: column; gap: 10px;">
+              <a [href]="finalWhatsapp()" target="_blank">
+                <button type="button" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">
+                  Enviar Mensagem (WhatsApp)
                 </button>
               </a>
-              <a [href]="finalWhatsapp()" target="_blank">
-                <button type="button" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0" style="width: 265px;">
-                  Enviar Mensagem (WhatsApp)
+              <a [href]="finalEmail()" target="_blank">
+                <button type="button" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">
+                  Enviar Email
                 </button>
               </a>
             </div>
