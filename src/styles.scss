@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// /* Application-wide Styles */
+// h1 {
+//   color: #369;
+//   font-family: Arial, Helvetica, sans-serif;
+//   font-size: 250%;
+// }
+
+// h2,
+// h3 {
+//   color: #444;
+//   font-family: Arial, Helvetica, sans-serif;
+//   font-weight: lighter;
+// }
+
+// body,
+// input[type="text"],
+// button {
+//   color: #333;
+//   font-family: Cambria, Georgia, serif;
+// }
+
+// body {
+//   margin: 0;
+// }
+
+// button {
+//   background-color: #eee;
+//   border: none;
+//   border-radius: 4px;
+//   cursor: pointer;
+//   font-size: 1.2rem;
+// }
+
+// button:hover {
+//   background-color: black;
+//   color: black;
+// }
+
+// button:disabled {
+//   background-color: #eee;
+//   color: #aaa;
+//   cursor: auto;
+// }
+
+// /* everywhere else */
+// * {
+//   font-family: Arial, Helvetica, sans-serif;
+// }
+
+// .blue-bg {
+//   background-color: #0b112b;
+// }
+
+// .display-flex {
+//   display: flex;
+// }
+
+// .flex-direction-row {
+//   flex-direction: row;
+// }
+
+// .flex-direction-column {
+//   flex-direction: column;
+// }
+
+// .space-around {
+//   justify-content: space-around;
+// }
+
+// .space-between {
+//   justify-content: space-between;
+// }
+
+// .logo {
+//   width: 160px;
+//   height: 60px;
+// }
+
+// #header-bar > ul {
+//   margin: auto 0;
+//   padding: 0;
+// }
+
+// #nav-bar {
+//   width: fit-content;
+//   height: 60px;
+//   gap: 10px;
+// }
+
+// #nav-bar > li {
+//   height: 100%;
+//   list-style-type: none;
+// }
+
+// #contact-logos {
+//   list-style-type: none;
+// }
+
+// .social-button {
+//   color: white;
+//   background-color: #0b112b;
+// }
+
+// .social-button:hover {
+//   background-color: #0b112b;
+// }
+
+// .svg-icon:hover {
+//   cursor: pointer;
+//   transition: 0.3s;
+//   color: #02d3da;
+//   fill: #02d3da;
+// }
+
+// .nav-button {
+//   text-transform: uppercase;
+//   color: white;
+//   background-color: #0b112b;
+//   font-size: 15px;
+//   width: 120px;
+//   text-align: center;
+//   height: 100%;
+//   border-radius: 0px;
+//   border-bottom: solid transparent 2px;
+// }
+
+// .nav-button:hover {
+//   border-color: #02d3da;
+//   transition: 0.3s;
+//   color: #02d3da;
+//   box-sizing: border-box;
+// }
