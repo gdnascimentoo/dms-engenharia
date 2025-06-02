@@ -19,6 +19,6 @@ export class ContactComponent {
   }
 
   finalWhatsapp() {
-    return "https://wa.me/47997265827";
+      return "https://wa.me/47997265827?text=" + encodeURIComponent(this.body);
   }
 }
