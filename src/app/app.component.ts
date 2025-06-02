@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
   styleUrl: '/src/output.css',
 })
 export class AppComponent {
-  title = 'Projeto Diego';
+  title = 'DMS Engenharia';
 
   isHamburguerOpen = false;
 
